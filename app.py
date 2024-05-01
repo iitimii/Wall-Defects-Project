@@ -6,7 +6,8 @@ import cv2
 def main(args=None)->None:
     model = YOLO("best.pt")
 
-    cap = cv2.VideoCapture(0)  
+    cap = cv2.VideoCapture(0)   
+    
 
     while True:
         key = cv2.waitKey(1)
