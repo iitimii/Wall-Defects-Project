@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 5
+names: ['crack', 'mold', 'peeling_paint', 'stairstep_crack', 'water_seepage']
+
+roboflow:
+  workspace: building-defect
+  project: building-defect-5yuza
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/building-defect/building-defect-5yuza/dataset/3
